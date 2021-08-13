@@ -10,16 +10,15 @@ import numpy as np
 
 
 # =============================================================================
-# reading in data, 
+# Using random data
 # =============================================================================
 A = np.array([[1,2],[3,4]])
 A.shape
-A_num_rows = A.shape[0] 
-A_num_features = A.shape[1]
+A_num_rows = A.shape[0] #number of rows in the data
+A_num_features = A.shape[1]  #number of columns in the data
 y = np.array([[-2],[3]])
 lambdaa = 0.5
-A_num_features+1
-n = np.arange(0,A_num_features) #This is the amount of coeffs im expecting- x1 and x2 
+n = np.arange(0,A_num_features) #This is the amount of coeffs im expecting- in this case, i have two features, hence, x1 and x2 
 
 # =============================================================================
 # Initializing
